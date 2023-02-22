@@ -185,7 +185,7 @@ print_grid()
 
 while (not endcondition):
     try:
-        op = getch.getch()
+        op = getch()
     except Exception as e:
         print(e)
     if starting_energy >= movement_cost:
